@@ -12,28 +12,27 @@
     <title>Psychic Game</title>
 </head>
 
-<body>   
+<body>
     <header>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-4">Psychic Game</h1>
-                <p class="lead">Pick a letter and see if you can see into the future!
+                <p class="lead">Pick a letter and see if you can see Guess what letter I'm thinking of!
                 </p>
             </div>
         </div>
     </header>
     <div class="container-fluid text-center">
         <div class="row">
-            <div class="col-md-5" id="clueArea">
+            <div class="col-md-3" id="clueArea">
                 <div class="row">
                     <div class="col-sm-12" id="clueBox">
-                        <button type="button">Reset & Play Again</button>    
-                        <p> The image goes here, maybe</p>
+                        <p>Clear Scores & Play Again click reset!</p>
+                        <button type="button">Reset</button>
                     </div>
-
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-5">
                 <ul class="list-group">
                     <li class="list-group-item">Letters Guessed
                     <li class="list-group-item" id="lettersGuessed"></li>
@@ -47,19 +46,24 @@
                     <li class="list-group-item">Loses
                         <span class="badge badge-error badge-pill">0</span>
                     </li>
+                    <li class="list-group-item">Total Games Played
+                            <span class="badge badge-info badge-pill">0</span>
+                    </li>
                 </ul>
             </div>
-            <div class="col-md-5" id="guessArea">
-
+            <div class="col-md-4" id="guessArea">
+                    <div class="col-sm-12" id="imageBox">
+                     <img src="assets/images/images1.jpg" alt="Psychic">       
+                    </div>
             </div>
         </div>
     </div>
 
     <script src="assets/javascript/game.js">
- 
+
     </script>
     <footer class="container-fluid text-center">
-        <p>Footer Text</p>
+        <p> &copy;Created by Charles Ladesic</p>
     </footer>
 </body>
 

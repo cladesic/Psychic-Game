@@ -1,8 +1,12 @@
+body{
+    background-image: url(../images/galaxy.jpg);
+}
 .jumbotron{
     padding: 0px;
     margin-bottom: 14px;
     margin-top:0px;
     text-align: center;
+    background-color: #e9ecef;
 }
 footer {
     background-color: #e9ecef;
@@ -23,6 +27,7 @@ footer {
   }
   #guessArea{
       background-color: white;
+      padding:15px;
   }
   #clueBox{
     background-color: white;
